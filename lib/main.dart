@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'session_2/business_card_app.dart';
+import 'session_3_buttons_statefull/calc_app/calc_app.dart';
 
 void main() {
-  runApp(BusinessCardApp());
+  runApp(MaterialApp(home: CalcApp()));
 }
