@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "appTitle": "Easy Learn Academy",
+  "aboutTitle": "About Easy Learn Academy",
+  "phone": "Phone",
+  "about":"EasyLearn a programming and technology learning academy focused on equipping learners with practical, industry-ready skills. We specialize in: # Programming fundamentals and advanced technologies # Hands-on, project-based learning # Career-oriented training aligned with market need Our mission is to bridge the gap between education and the tech industry by preparing skilled, job-ready developers.",
+  "email": "Email",
+  "website": "Website",
+  "changeLanguage": "Change language"
+}

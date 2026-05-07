@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'session_4_scrolling/chat_app/views/chat_view_slivers.dart';
-import 'session_5_textfield/text_field_widget.dart';
+import 'session_6_theme_localization/app/app.dart';
 
 void main() {
-  runApp(MaterialApp(home: TextFieldWidget()));
+  runApp(MyApp());
 }
 
 class Login extends StatelessWidget {
