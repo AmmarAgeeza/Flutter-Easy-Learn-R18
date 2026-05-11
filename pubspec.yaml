@@ -36,8 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_localizations:
     sdk: flutter
-  intl: any
-  
+  intl: ^0.20.2
+  one_clock: ^2.0.3
+
 
 dev_dependencies:
   flutter_test:
