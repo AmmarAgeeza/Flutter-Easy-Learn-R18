@@ -7,7 +7,9 @@ class AspectRatioWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: FlutterLogo(),
+        child: AspectRatio(
+        aspectRatio: 16/9,// width:height aspect ratio
+        child: FlutterLogo()),
       ),
     );
   }

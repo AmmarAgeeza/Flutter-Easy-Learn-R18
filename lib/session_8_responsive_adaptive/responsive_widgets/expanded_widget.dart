@@ -9,13 +9,19 @@ class ExpandedExample extends StatelessWidget {
       body: Center(
         child: Row(
           children: [
-            Container(height: 200, width: 150, color: Colors.amber),
-            Container(height: 200, width: 50, color: Colors.green),
-            Container(height: 200, width: 150, color: Colors.red),
+            Expanded(
+              flex: 3,
+              child: Container(height: 200, width: 150, color: Colors.amber),
+            ),
+            Expanded(
+              child: Container(height: 200, width: 150, color: Colors.green),
+            ),
+            Expanded(
+              child: Container(height: 200, width: 150, color: Colors.red),
+            ),
           ],
         ),
       ),
     );
   }
 }
-

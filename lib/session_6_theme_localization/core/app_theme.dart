@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/session_8_responsive_adaptive/portfolio_app/core/app_styles.dart';
 
 import 'app_colors.dart';
 import 'app_size.dart';
@@ -43,11 +44,7 @@ class AppTheme {
       iconTheme: IconThemeData(color: AppColors.textColor),
     ),
     textTheme: TextTheme(
-      bodyLarge: TextStyle(
-        color: AppColors.textColor,
-        fontSize: 20,
-        fontWeight: FontWeight.bold,
-      ),
+      bodyLarge: AppStyles.boldPrimaryColor24,
       bodyMedium: TextStyle(
         color: Colors.black,
         fontSize: 18,
