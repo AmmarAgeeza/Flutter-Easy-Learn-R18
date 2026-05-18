@@ -42,7 +42,7 @@ Future<void> getSum() async {
   for (int i = 1; i < 1000000000; i++) {
     sum += i;
   }
-  throw Exception("Internet Erro");
+  // throw Exception("Internet Erro");
   print(sum);
 }
 

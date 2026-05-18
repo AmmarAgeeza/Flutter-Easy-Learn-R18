@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/session_8_responsive_adaptive/portfolio_app/app/app.dart'
-    show MyPortofolioApp;
+import 'package:flutter_widgets/session_9_audio_player/custom_audio_player_screen.dart';
 
 void main() {
-  runApp(MyPortofolioApp());
+  runApp(
+    const MaterialApp(
+      home: CustomAudioPlayerScreen(),
+      debugShowCheckedModeBanner: false,
+    ),
+  );
 }
