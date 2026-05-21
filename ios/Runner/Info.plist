@@ -45,5 +45,20 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- Camera permission for QR code scanning -->
+		<key>NSCameraUsageDescription</key>
+		<string>Flutter Widgets needs access to your camera to upload image from user.</string>
+		<!-- Image picker -->
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>Flutter Widgets media library used to upload and download photos</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>Flutter Widgets media library used to upload and download photos</string>
+		<!-- location permission -->
+		<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app needs access to location when open.</string>
+<key>UIBackgroundModes</key>
+<array>
+  <string>location</string>
+</array>
 </dict>
 </plist>

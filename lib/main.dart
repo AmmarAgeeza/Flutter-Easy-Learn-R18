@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/session_9_audio_player/custom_audio_player_screen.dart';
 
-void main() {
+import 'session_10_image_picker_geolocation/profile_screen.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(
-    const MaterialApp(
-      home: CustomAudioPlayerScreen(),
-      debugShowCheckedModeBanner: false,
-    ),
+    const MaterialApp(home: ProfileScreen(), debugShowCheckedModeBanner: false),
   );
 }
