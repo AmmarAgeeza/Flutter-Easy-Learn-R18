@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-
-import 'session_10_image_picker_geolocation/profile_screen.dart';
+import 'package:flutter_widgets/session_11_shared_prefs/screens/profile_screen.dart';
+import 'package:flutter_widgets/session_6_theme_localization/app/app.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
   runApp(
-    const MaterialApp(home: ProfileScreen(), debugShowCheckedModeBanner: false),
+    // const MyApp(),
+    const MaterialApp(
+      home: ProfileSetupScreen(),
+      debugShowCheckedModeBanner: false,
+    ),
   );
 }

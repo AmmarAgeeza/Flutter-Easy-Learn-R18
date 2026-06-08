@@ -82,29 +82,27 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 onPressed: () async {
                   try {
                     setState(() {
-                    isLoading = true;
-                  });
-                  await Future.delayed(Duration(seconds: 2));
-                  Position position = await determinePosition();
-                  log(position.latitude.toString());
-                  log(position.longitude.toString());
-                  Placemark placemark = await convertPositionToAddress(
-                    position,
-                  );
-                  log(placemark.country.toString());
-                  log(placemark.street.toString());
-                  address =
-                      "Country: ${placemark.country}. Street:${placemark.street}";
-                  isLoading = false;
-                  setState(() {});
+                      isLoading = true;
+                    });
+                    await Future.delayed(Duration(seconds: 2));
+                    Position position = await determinePosition();
+                    log(position.latitude.toString());
+                    log(position.longitude.toString());
+                    Placemark placemark = await convertPositionToAddress(
+                      position,
+                    );
+                    log(placemark.country.toString());
+                    log(placemark.street.toString());
+                    address =
+                        "Country: ${placemark.country}. Street:${placemark.street}";
+                    isLoading = false;
+                    setState(() {});
                   } catch (e) {
                     log(e.toString());
                     //TODO: add flutter toast or snack bar on the task
-                  }finally{
-                  isLoading = false;
-                  setState(() {
-                    
-                  });
+                  } finally {
+                    isLoading = false;
+                    setState(() {});
                   }
                 },
                 child: isLoading
